@@ -1,5 +1,6 @@
 @import "./_fonts"
-    
+@import "./_variables"
+
 body 
     margin: 0
 
@@ -45,6 +46,7 @@ body
     align-items: center
     height: 100vh
     font-family: 'Nunito', sans-serif
+    color: #1c1f1cd3
     text-transform: uppercase
 
     button
@@ -71,5 +73,77 @@ body
 
 .about
     width: 80%
+    margin: auto
     h2
         margin: auto
+        width: fit-content
+        font-family: 'Nunito', sans-serif
+        color: #1c1f1cd3
+    hr
+        width: 40%
+        margin: auto
+        background-color: #BDCEAF !important
+        height: 1px
+        opacity: 100%
+
+    p
+        width: 70%
+        margin: auto
+        border: 1px solid #BDCEAF
+        padding: 40px
+
+.competences
+    background-color: #FFF8E3
+    .compe_list
+        padding: 150px
+        display: flex
+        justify-content: space-evenly
+        align-content: center
+        font-family: 'Nunito', sans-serif
+        color: #1c1f1cd3
+        span
+            font-size: 30px
+
+.projets
+    width: 80%
+    margin: auto
+    h2
+        margin: auto
+        width: fit-content
+        font-family: 'Nunito', sans-serif
+        color: #1c1f1cd3
+    hr
+        width: 40%
+        margin: auto
+        background-color: #BDCEAF !important
+        height: 1px
+        opacity: 100%
+
+    .row
+        justify-content: space-around
+    .projets_preview
+        width: 400px
+        height: 250px
+        border: 1px solid #BDCEAF
+        
+.contact
+    background-color: #FFF8E3
+    .row
+        padding: 150px
+        display: flex
+        justify-content: space-evenly
+        align-content: center
+
+        i
+            color: #BDCEAF
+            font-size: 40px
+            width: fit-content
+    a
+        text-decoration: none
+        list-style: none
+        color: #BDCEAF
+        font-size: 40px
+        width: fit-content
+
+.footer
+    height: 80px
