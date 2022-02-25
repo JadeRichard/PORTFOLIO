@@ -6137,6 +6137,7 @@ body {
   text-decoration: none;
   color: #212529;
   list-style: none;
+  transition: 0.5s;
 }
 .navbar a:hover {
   color: #b85050;
@@ -6212,7 +6213,11 @@ body {
 }
 
 .competences {
-  background-color: #FFF8E3;
+  background-image: url("./../img/scrolleffect.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .competences .compe_list {
   padding: 150px;
@@ -6229,6 +6234,12 @@ body {
 .projets {
   width: 80%;
   margin: auto;
+}
+.projets .carousel-control-next-icon {
+  background-image: url("./../img/next.png");
+}
+.projets .carousel-control-prev-icon {
+  background-image: url("./../img/previous.png");
 }
 .projets h2 {
   margin: auto;

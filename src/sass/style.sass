@@ -21,6 +21,7 @@ body
         text-decoration: none
         color: #212529
         list-style: none
+        transition: 0.5s
 
         &:hover
             color: #b85050
@@ -93,7 +94,11 @@ body
         padding: 40px
 
 .competences
-    background-color: #FFF8E3
+    background-image: url("./../img/scrolleffect.png")
+    background-attachment: fixed
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
     .compe_list
         padding: 150px
         display: flex
@@ -107,6 +112,12 @@ body
 .projets
     width: 80%
     margin: auto
+
+    .carousel-control-next-icon
+        background-image: url("./../img/next.png")
+
+    .carousel-control-prev-icon
+        background-image: url("./../img/previous.png")
     h2
         margin: auto
         width: fit-content
